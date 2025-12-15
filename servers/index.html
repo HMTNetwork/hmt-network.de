@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Server - HMT Network</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" href="/assets/img/logo/HMT-Symbol-Green.png" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=JetBrains+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/socials.css" />
+    <script src="https://unpkg.com/lucide@latest"></script>
+  </head>
+  <body>
+    <div class="grid-bg"></div>
+    <div id="header-container"></div>
+
+    <main>
+      <div class="container">
+        <section class="welcome-section">
+          <h1>Unsere Spielmodi</h1>
+          <p>Wähle deinen bevorzugten Spielmodus und tauche in die Welt von HMT Network ein!</p>
+        </section>
+
+        <section class="section">
+
+          <div class="d-flex justify-content-between align-items-center mb-2">
+            <h2 class="section-title" style="margin:0;">Server</h2>
+          </div>
+
+          <div class="dashboard-grid">
+            <div class="card" style="padding: 0; overflow: hidden;">
+              <div style="position: relative;">
+                <img src="/assets/img/servers/survival.svg" alt="Survival Server" class="server-card-img">
+                <div class="server-card-overlay">
+                  <h2 class="server-card-title">Survival</h2>
+                </div>
+              </div>
+              <div class="news-content">
+                <h3 style="font-size: 1.2rem; margin-bottom: 5px; color: var(--text-main);">Survival</h3>
+                <div style="margin-bottom: 10px;">
+                </div>
+                <p style="font-size: 0.9rem;">Wenn du einfach ein bischen entspanntes Minecraft spielen willst, bist du hier genau bei der richtigen Adresse...</p>
+                <a href="/servers/survival/" class="btn btn-primary">Mehr erfahren</a>
+              </div>
+            </div>
+
+            <div class="card" style="padding: 0; overflow: hidden;">
+              <div style="position: relative;">
+                <img src="/assets/img/servers/hardcore.svg" alt="Hardcore Server" class="server-card-img">
+                <div class="server-card-overlay">
+                  <h2 class="server-card-title">Hardcore</h2>
+                </div>
+              </div>
+              <div class="news-content">
+                <h3 style="font-size: 1.2rem; margin-bottom: 5px; color: var(--text-main);">Hardcore</h3>
+                <div style="margin-bottom: 10px;">
+                </div>
+                <p style="font-size: 0.9rem;">Wenn du ein bisschen mehr Herausforderung suchst und nicht nur entspanntes, bist du eher hier bei der richtigen Adresse...</p>
+                <a href="/servers/hardcore/" class="btn btn-primary">Mehr erfahren</a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <div id="footer-container"></div>
+
+    <script>
+      lucide.createIcons();
+    </script>
+    <script src="/assets/js/load-header.js"></script>
+    <script src="/assets/js/load-footer.js"></script>
+  </body>
+</html>

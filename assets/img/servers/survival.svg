@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="150" viewBox="0 0 400 150">
+  <rect width="400" height="150" fill="#38bdf8"/>
+  <circle cx="100" cy="75" r="30" fill="#2563eb" opacity="0.7"/>
+  <circle cx="300" cy="50" r="20" fill="#2563eb" opacity="0.5"/>
+  <circle cx="250" cy="100" r="25" fill="#2563eb" opacity="0.6"/>
+  <text x="200" y="85" font-family="Arial, sans-serif" font-size="24" fill="white" text-anchor="middle" font-weight="bold">Survival Server</text>
+</svg>

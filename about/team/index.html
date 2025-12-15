@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Team - HMT Network</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" href="/assets/img/logo/HMT-Symbol-Green.png" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=JetBrains+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/socials.css" />
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+      .members-grid {
+        display: grid;
+        gap: 2rem;
+        margin-bottom: 3rem;
+      }
+      
+      .members-grid:first-child {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      
+      .members-grid:not(:first-child) {
+        grid-template-columns: repeat(3, 1fr);
+      }
+      
+      .member-card {
+        background: var(--card-bg);
+        border: 1px solid var(--border-color);
+        border-radius: var(--border-radius);
+        padding: 1.5rem;
+        text-align: center;
+        transition: all var(--transition-speed);
+      }
+      
+      .member-card:hover {
+        border-color: var(--accent-primary);
+        transform: translateY(-3px);
+      }
+      
+      .member-image {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        margin-bottom: 1rem;
+        object-fit: cover;
+      }
+      
+      .member-name {
+        font-family: var(--font-mono);
+        font-size: 1.2rem;
+        font-weight: 700;
+        color: #fff;
+        margin-bottom: 0.5rem;
+      }
+      
+      .member-rank {
+        font-size: 1rem;
+        color: var(--accent-primary);
+        font-weight: 600;
+        margin-bottom: 1rem;
+      }
+      
+      @media (max-width: 768px) {
+        .members-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid-bg"></div>
+    <div id="header-container"></div>
+
+
+    <main>
+      <div class="container">
+        <section class="welcome-section">
+          <h1>Unsere Clan-Mitglieder</h1>
+          <p class="tagline">Die fantastischen Menschen hinter unserem Erfolg</p>
+        </section>
+
+        <section class="section">
+          <h2 class="section-title">Clan-Mitglieder</h2>
+          
+          <div class="members-grid-wrapper" style="display: flex; justify-content: center;">
+          <div class="members-grid">
+            <!-- First Row - 2 Members -->
+            <div class="member-card">
+              <img src="/assets/img/skins/JumpStone4477.png" alt="JumpStone4477" class="member-image" />
+              <div class="member-name">JumpStone4477</div>
+              <div class="member-rank">Owner</div>
+            </div>
+            
+            <div class="member-card">
+              <img src="/assets/img/skins/SchildFlieger.png" alt="SchildFlieger" class="member-image" />
+              <div class="member-name">SchildFlieger</div>
+              <div class="member-rank">Owner</div>
+            </div>
+          </div>
+          </div>
+          
+          <div class="members-grid">
+            <!-- Second Row - 3 Members -->            
+            <div class="member-card">
+              <img src="" alt="Blafi" class="member-image" />
+              <div class="member-name">Blafi</div>
+              <div class="member-rank">Admin</div>
+            </div>
+            
+            <div class="member-card">
+              <img src="/assets/img/skins/Loxiii9000.png" alt="Loxiii" class="member-image" />
+              <div class="member-name">Loxiii</div>
+              <div class="member-rank">Moderator</div>
+            </div>
+          </div>
+      </div>
+    </main>
+
+    <div id="footer-container"></div>
+
+    <script>
+      lucide.createIcons();
+    </script>
+    <script src="/assets/js/load-header.js"></script>
+    <script src="/assets/js/load-footer.js"></script>
+  </body>
+</html>
