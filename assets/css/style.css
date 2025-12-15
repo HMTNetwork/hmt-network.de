@@ -747,6 +747,54 @@ a {
   height: 24px;
 }
 
+/* --- SERVER STATUS POPUP --- */
+.server-status-popup {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: rgba(5, 5, 5, 0.9);
+  backdrop-filter: blur(5px);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 15px 20px;
+  z-index: 1000;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  max-width: 300px;
+  animation: fadeInOut 3s infinite;
+}
+
+.server-status-popup .status-indicator {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.server-status-popup .status-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #e74c3c;
+}
+
+.server-status-popup .status-text {
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #e74c3c;
+}
+
+.server-status-popup .message {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  line-height: 1.4;
+}
+
+@keyframes fadeInOut {
+  0%, 100% { opacity: 0.8; }
+  50% { opacity: 1; }
+}
+
 /* --- UTILITIES --- */
 .text-center {
   text-align: center;
