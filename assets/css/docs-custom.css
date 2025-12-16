@@ -456,6 +456,8 @@ a:hover {
   .content {
     padding-left: 20px;
     padding-right: 20px;
+    padding-top: 20px; /* Reduced padding for mobile */
+    margin-top: 0; /* Remove margin-top on mobile since sidebar is above content */
   }
   
   h1 {
@@ -468,6 +470,14 @@ a:hover {
   
   h3 {
     font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .content {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
   }
 }
 
