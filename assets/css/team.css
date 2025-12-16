@@ -1,0 +1,56 @@
+      .members-grid {
+        display: grid;
+        gap: 2rem;
+        margin-bottom: 3rem;
+      }
+      
+      .members-grid:first-child {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      
+      .members-grid:not(:first-child) {
+        grid-template-columns: repeat(3, 1fr);
+      }
+      
+      .member-card {
+        background: var(--card-bg);
+        border: 1px solid var(--border-color);
+        border-radius: var(--border-radius);
+        padding: 1.5rem;
+        text-align: center;
+        transition: all var(--transition-speed);
+      }
+      
+      .member-card:hover {
+        border-color: var(--accent-primary);
+        transform: translateY(-3px);
+      }
+      
+      .member-image {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        margin-bottom: 1rem;
+        object-fit: cover;
+      }
+      
+      .member-name {
+        font-family: var(--font-mono);
+        font-size: 1.2rem;
+        font-weight: 700;
+        color: #fff;
+        margin-bottom: 0.5rem;
+      }
+      
+      .member-rank {
+        font-size: 1rem;
+        color: var(--accent-primary);
+        font-weight: 600;
+        margin-bottom: 1rem;
+      }
+      
+      @media (max-width: 768px) {
+        .members-grid {
+          grid-template-columns: 1fr;
+        }
+      }
