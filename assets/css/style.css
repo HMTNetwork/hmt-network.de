@@ -1,15 +1,15 @@
 /* --- PUB FOLDER NEW DESIGN CSS FRAMEWORK --- */
 /* Based on example.txt design with dark theme, grid background, and modern components */
-/* Using blue color scheme instead of green */
+/* Using green color scheme instead of blue */
 
 :root {
-  /* Color Variables - Blue Theme */
+  /* Color Variables - Green Theme */
   --bg-color: #050505;
   --card-bg: #0f0f0f;
   --border-color: #27272a;
   --text-main: #e4e4e7;
   --text-muted: #a1a1aa;
-  --accent-primary: #3b82f6; /* Vibrant blue */
+  --accent-primary: #10b981; /* Vibrant green */
   --accent-secondary: #8b5cf6; /* Purple */
   --font-main: "Inter", sans-serif;
   --font-mono: "JetBrains Mono", monospace;
@@ -268,7 +268,7 @@ main {
 }
 
 .card .btn-primary:hover {
-  background: #2563eb;
+  background: #059669;
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
@@ -322,8 +322,8 @@ main {
 }
 
 .btn-primary:hover {
-  background: #2563eb;
-  border-color: #2563eb;
+  background: #059669;
+  border-color: #059669;
   color: var(--bg-color);
 }
 
@@ -408,7 +408,7 @@ a {
 .form-control:focus {
   outline: none;
   border-color: var(--accent-primary);
-  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+  box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.2);
 }
 
 /* --- LISTS --- */
@@ -439,7 +439,7 @@ a {
 }
 
 .status-online {
-  background: rgba(59, 130, 246, 0.2);
+  background: rgba(16, 185, 129, 0.2);
   color: var(--accent-primary);
 }
 
@@ -505,7 +505,7 @@ a {
 
 /* --- WELCOME SECTION --- */
 .welcome-section {
-  background: linear-gradient(135deg, rgba(16, 185, 129, 0.1), rgba(168, 85, 247, 0.1));
+  background: linear-gradient(135deg, rgba(16, 185, 129, 0.1), rgba(255, 199, 44, 0.1));
   padding: 3rem 0;
   text-align: center;
   margin-bottom: 3rem;
@@ -738,7 +738,7 @@ a {
 }
 
 .spotify-btn:hover {
-  background: #2563eb;
+  background: #059669;
   transform: translateY(-1px);
 }
 
