@@ -1,0 +1,4 @@
+Contact: mailto:security@hmt-network.de
+Expires: 2026-01-31T23:00:00.000Z
+Acknowledgments: https://hmt-network.de/security/hall-of-fame.html
+Preferred-Languages: de, en
