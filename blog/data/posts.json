@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "title": "Test",
+    "excerpt": "Test.",
+    "contentFile": "posts/1.md",
+    "date": "2025-12-18",
+    "author": "JumpStone",
+    "tags": ["wartung", "server"]
+  },
+  {
+    "id": "2",
+    "title": "Neue Markdown-Features im Blog",
+    "excerpt": "Entdecken Sie die neuen Formatierungsmöglichkeiten in unseren Blog-Posts.",
+    "contentFile": "posts/2.md",
+    "date": "2025-12-18",
+    "author": "HMT Network Team",
+    "tags": ["blog", "markdown", "features"]
+  }
+]
