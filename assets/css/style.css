@@ -475,30 +475,6 @@ a {
   border-bottom: none;
 }
 
-/* --- STATUS BADGES --- */
-.status-badge {
-  padding: 0.3rem 0.8rem;
-  border-radius: 20px;
-  font-size: 0.8rem;
-  font-family: var(--font-mono);
-  font-weight: 600;
-}
-
-.status-online {
-  background: rgba(16, 185, 129, 0.2);
-  color: var(--accent-primary);
-}
-
-.status-offline {
-  background: rgba(231, 76, 60, 0.2);
-  color: #ff6b5c;
-}
-
-.status-maintenance {
-  background: rgba(243, 156, 18, 0.2);
-  color: #ffc107;
-}
-
 /* --- GRID SYSTEM --- */
 .dashboard-grid {
   display: grid;
@@ -594,6 +570,23 @@ a {
 
 .footer-section a:hover {
   color: var(--accent-primary);
+}
+
+/* Status Widget Styling */
+.footer-section iframe {
+  border-radius: var(--border-radius);
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  transition: all var(--transition-speed);
+  margin-top: 5px;
+  max-width: 230px;
+  padding: 5px;
+}
+
+.footer-section iframe:hover {
+  border-color: var(--accent-primary);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .footer-bottom {

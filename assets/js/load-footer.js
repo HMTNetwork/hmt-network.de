@@ -11,10 +11,10 @@ window.addEventListener("DOMContentLoaded", () => {
     popup.innerHTML = `
         <div class="status-indicator">
             <div class="status-dot"></div>
-            <div class="status-text">SERVER OFFLINE</div>
+            <div class="status-text">WARTUNGSMODUS</div>
         </div>
         <div class="message">
-            Unser Server ist aktuell noch offline und befindet sich im Aufbau. Schau gerne später wieder vorbei!
+            Unser Server ist aktuell noch im Wartungsmodus und befindet sich im Aufbau. Schau gerne später wieder vorbei!
         </div>
     `;
     document.body.appendChild(popup);
