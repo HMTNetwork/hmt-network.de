@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
             
             // Load Markdown content
-            return fetch(`/blog/data/${post.contentFile}`)
+            return fetch(`https://blog.hmt-network.de/data/posts/${post.contentFile}`)
                 .then(response => response.text())
                 .then(markdownContent => {
                     // Update meta tags
