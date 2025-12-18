@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     
     // Fetch blog posts
-    fetch('/blog/data/posts.json')
+    fetch('https://blog.hmt-network.de/data/posts.json')
         .then(response => response.json())
         .then(posts => {
             const post = posts.find(p => p.id === postId);

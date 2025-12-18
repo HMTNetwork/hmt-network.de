@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const blogContainer = document.getElementById('blog-posts-container');
     
     // Fetch blog posts
-    fetch('/blog/data/posts.json')
+    fetch('https://blog.hmt-network.de/data/posts.json')
         .then(response => response.json())
         .then(posts => {
             // Clear loading placeholder
