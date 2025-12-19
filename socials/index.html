@@ -20,6 +20,20 @@
     <link rel="stylesheet" href="/assets/css/style.css" />
     <link rel="stylesheet" href="/assets/css/socials-page.css" />
 
+    <style>
+      /* Entfernt den Platzhalter für den Header, der in style.css definiert ist */
+      body,
+      main {
+        padding-top: 0 !important;
+        margin-top: 0 !important;
+      }
+
+      /* Optional: Falls die Bio-Page ganz oben kleben soll */
+      .bio-container {
+        padding-top: 40px; /* Ein kleiner ästhetischer Abstand zum Browserrand */
+      }
+    </style>
+
     <script src="https://unpkg.com/lucide@0.342.0/dist/umd/lucide.min.js"></script>
   </head>
   <body>
@@ -132,7 +146,6 @@
       </div>
     </main>
     <script>
-      // Icons initialisieren
       lucide.createIcons();
     </script>
     <script src="/assets/js/load-footer.js" defer></script>
