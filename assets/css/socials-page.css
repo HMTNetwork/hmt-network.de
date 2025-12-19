@@ -1,0 +1,251 @@
+/* Layout Container für die Bio-Page (schmaler als normale Container) */
+.bio-container {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 0 20px 80px 20px;
+}
+
+/* Hero Banner / Hintergrundbild oben */
+.bio-hero {
+  height: 220px;
+  width: 100%;
+  background-image: url("/assets/img/servers/lobby.png"); /* Pfad angepasst falls nötig */
+  background-size: cover;
+  background-position: center;
+  border-radius: 16px 16px 0 0;
+  position: relative;
+}
+
+/* Overlay damit Text/Avatar besser wirken */
+.bio-hero::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    rgba(5, 5, 5, 0.8) 100%
+  );
+  border-radius: 16px 16px 0 0;
+}
+
+/* Profil-Karte unter dem Banner */
+.bio-header-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-top: none;
+  border-radius: 0 0 16px 16px;
+  padding: 0 2rem 2.5rem 2rem;
+  text-align: center;
+  margin-bottom: 2.5rem;
+  position: relative;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Profilbild mit negativem Margin (überlappt Banner) */
+.bio-avatar {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 5px solid var(--card-bg);
+  background: var(--bg-color);
+  margin-top: -65px;
+  position: relative;
+  z-index: 2;
+  object-fit: contain;
+  padding: 5px; /* Kleiner Abstand zum Rand */
+}
+
+.bio-name {
+  margin-top: 1rem;
+  font-size: 2rem;
+  font-weight: 800;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+/* Verifiziert-Häkchen wie im Beispiel */
+.verified-badge {
+  color: var(--accent-primary);
+  width: 24px;
+  height: 24px;
+}
+
+.bio-subtitle {
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Runde Action Buttons (Youtube, Discord, etc.) */
+.social-actions-row {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.action-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  text-decoration: none;
+  transition: transform 0.2s ease;
+}
+
+.action-btn:hover {
+  transform: translateY(-4px);
+}
+
+.action-icon-circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: var(--bg-color);
+  border: 1px solid var(--border-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
+  transition: border-color 0.2s, color 0.2s;
+  color: var(--text-muted);
+}
+
+.action-btn:hover .action-icon-circle {
+  border-color: var(--accent-primary);
+  color: #fff;
+}
+
+/* Spezifische Farben beim Hovern */
+.action-btn.youtube:hover .action-icon-circle {
+  border-color: #ff0000;
+  background: rgba(255, 0, 0, 0.1);
+  color: #ff0000;
+}
+.action-btn.discord:hover .action-icon-circle {
+  border-color: #5865f2;
+  background: rgba(88, 101, 242, 0.1);
+  color: #5865f2;
+}
+.action-btn.web:hover .action-icon-circle {
+  border-color: var(--accent-primary);
+  background: rgba(16, 185, 129, 0.1);
+  color: var(--accent-primary);
+}
+
+.action-label {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+}
+
+/* Große Link-Liste (wie Kasai "Link List") */
+.link-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.big-link-card {
+  display: flex;
+  align-items: center;
+  padding: 16px 20px;
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.big-link-card:hover {
+  border-color: var(--accent-primary);
+  transform: scale(1.01);
+  background: #151515;
+}
+
+/* Icon links im Button */
+.link-icon-box {
+  width: 48px;
+  height: 48px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 16px;
+  flex-shrink: 0;
+}
+
+.link-icon-box img,
+.link-icon-box svg {
+  width: 24px;
+  height: 24px;
+  color: #fff;
+}
+
+.link-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.link-title {
+  color: var(--text-main);
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.2;
+}
+
+.link-desc {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  margin-top: 4px;
+}
+
+.link-arrow {
+  color: var(--text-muted);
+  opacity: 0.5;
+  transition: transform 0.2s;
+}
+
+.big-link-card:hover .link-arrow {
+  opacity: 1;
+  transform: translateX(3px);
+  color: var(--accent-primary);
+}
+
+/* Abschnittsüberschrift */
+.list-divider {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 30px 0 15px 0;
+}
+
+.list-divider::before,
+.list-divider::after {
+  content: "";
+  height: 1px;
+  background: var(--border-color);
+  flex: 1;
+}
+
+.list-divider span {
+  font-family: var(--font-mono);
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
