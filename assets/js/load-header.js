@@ -6,6 +6,14 @@ window.addEventListener("DOMContentLoaded", () => {
         });
 });
 
+window.addEventListener("DOMContentLoaded", () => {
+    fetch("https://hmt-network.de/assets/templates/header-blog.html")
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById("header-blog-container").innerHTML = data;    
+        });
+});
+
 // Add scroll event listener for header shrink effect on mobile
 let lastScrollTop = 0;
 const header = document.querySelector('.header-nav');
