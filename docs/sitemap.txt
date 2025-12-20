@@ -1,0 +1,6 @@
+Home, README.md
+Wie trete ich bei?, join.md
+Survival, survival.md
+Commands, commands.md
+Ränge und Rechte, ranks.md
+Server Regeln, rules.md
