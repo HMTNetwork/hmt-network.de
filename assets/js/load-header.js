@@ -7,14 +7,6 @@ window.addEventListener("DOMContentLoaded", () => {
 });
 
 window.addEventListener("DOMContentLoaded", () => {
-    fetch("https://hmt-network.de/assets/templates/header-blog.html")
-        .then(response => response.text())
-        .then(data => {
-            document.getElementById("header-blog-container").innerHTML = data;    
-        });
-});
-
-window.addEventListener("DOMContentLoaded", () => {
     fetch("https://hmt-network.de/assets/templates/header-docs.html")
         .then(response => response.text())
         .then(data => {
