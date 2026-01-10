@@ -25,6 +25,7 @@ Our network supports **Crossplay**. This means you can play with the Java Editio
 
 ## 🎮 Consoles (Xbox, PlayStation, Nintendo Switch)
 Since consoles do not allow custom server IPs by default, you have to use a small trick. Here are the most common methods:
+If you need more detailed help, feel free to watch [this YouTube video](https://www.youtube.com/watch?v=AoLPhKW2Xis) or ask on our Discord.
 
 ### Method A: "Bedrock Together" App (Recommended)
 1. Download the app **"Bedrock Together"** (free in the App Store / Google Play Store) on your phone.
