@@ -1,16 +1,8 @@
 window.addEventListener("DOMContentLoaded", () => {
-    fetch("https://hmt-network.de/assets/templates/header.html")
+    fetch("/assets/templates/header.html")
         .then(response => response.text())
         .then(data => {
             document.getElementById("header-container").innerHTML = data;    
-        });
-});
-
-window.addEventListener("DOMContentLoaded", () => {
-    fetch("https://hmt-network.de/assets/templates/header-docs.html")
-        .then(response => response.text())
-        .then(data => {
-            document.getElementById("header-docs-container").innerHTML = data;    
         });
 });
 

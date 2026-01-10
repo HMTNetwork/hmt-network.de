@@ -1,5 +1,5 @@
 window.addEventListener("DOMContentLoaded", () => {
-    fetch("https://hmt-network.de/assets/templates/footer.html")
+    fetch("/assets/templates/footer.html")
         .then(response => response.text())
         .then(data => {
             document.getElementById("footer-container").innerHTML = data;

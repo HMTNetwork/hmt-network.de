@@ -1,40 +1,29 @@
-# HMT Network Dokumentation
+# Willkommen auf dem HMT-Network
 
-Willkommen zur offiziellen Dokumentation der HMT Network Minecraft-Server.
+Das **HMT-Network** ist ein modernes Minecraft-Netzwerk, das aktuell in der **Closed Beta** Phase ist. Wir bieten ein feature-reiches Survival-Erlebnis (SMP), das auf Langzeitspaß, eine starke Wirtschaft und maximale Freiheit ausgelegt ist. 
 
-## Über diese Dokumentation
+Unser Ziel ist es, eine Brücke zwischen allen Plattformen zu schlagen und eine einzigartige Umgebung für kompetitives und kooperatives Gameplay zu schaffen.
 
-Diese Dokumentation enthält alle wichtigen Informationen für Spieler unserer Minecraft-Server. Hier findest du Anleitungen, Regeln und Details zu unseren verschiedenen Servern.
+> 🌍 Prefer English? You can find the English version of our documentation [here](https://hmt-network.de/docs/en)
 
-## Server-Übersicht
+## Schnell-Start
+Du möchtest sofort loslegen? Hier sind die wichtigsten Infos:
 
-### [Survival Server](survival.md)
+* **Java IP:** `mc.hmt-network.de`
+* **Bedrock IP:** `bedrock.hmt-network.de`
 
-- Klassisches Minecraft-Erlebnis
-- Entspanntes Gameplay ohne Permadeath
-- Community-Building und Kooperation
+**Du spielst auf der Konsole oder brauchst Hilfe beim Verbinden?**
+👉 [Hier geht es zur ausführlichen Join-Anleitung](join.md)
 
-### [Hardcore Server](hardcore.md)
+## Was zeichnet uns aus?
+* **Grenzenloses Crossplay:** Spiele nahtlos mit Freunden auf PC, Handy oder Konsole zusammen.
+* **Echtzeit-Wirtschaft:** Ein dynamisches Geldsystem (€) mit globalem Shop und einem von Spielern gesteuerten Auktionshaus.
+* **Team-System:** Gründe Gilden, verbünde dich mit anderen und dominiere den Server.
+* **Exklusive Features:** Von spezialisierten Crates bis hin zu taktischen Items im Shop bieten wir Tiefe im Gameplay.
+* **Beta-Status:** Wir entwickeln uns stetig weiter. Aktuell kannst du die ersten Schritte auf `smp01` miterleben.
 
-- Ultimatives Überlebensgefühl
-- Permadeath und erhöhte Schwierigkeit
-- Nur für erfahrene Spieler geeignet
-
-## Wichtige Dokumente
-
-- [Wie trete ich dem Server bei?](join.md) - Eine Schritt-für-Schritt Anleitung
-- [Verfügbare Befehle](commands.md) - Alle Server-Befehle im Überblick
-- [Ränge und Berechtigungen](ranks.md) - Spieler- und Team-Ränge erklärt
-- [Server Regeln](rules.md) - Unsere Community-Richtlinien
-
-## Unterstützung
-
-Benötigst du Hilfe oder hast du Fragen?
-
-- Besuche unseren [Discord-Server](https://hmt-network.de/discord)
-- Frage ein Teammitglied im Spiel
-- Öffne ein Ticket auf unserem Discord
-
----
-
-© 2025 HMT Network
+## Fairness & No Pay-to-Win
+HMT-Network steht für faires Gameplay. 
+* **Kein Echtgeld-Shop:** Man kann sich keine Spielvorteile, Items oder Währung mit echtem Geld kaufen.
+* **Rein spielbasiert:** Alles, was du im Spiel erreichen kannst, erreichst du durch dein Können und deine Zeit auf dem Server.
+* **Virtuelle Währung:** Unsere Währung (€) ist eine reine In-Game-Währung ohne Bezug zu echtem Geld.

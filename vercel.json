@@ -1,0 +1,32 @@
+{
+  "redirects": [
+    {
+      "source": "/dc",
+      "destination": "https://discord.gg/ykuVSer7Bk"
+    },
+    {
+      "source": "/discord",
+      "destination": "https://discord.gg/ykuVSer7Bk"
+    },
+    {
+      "source": "/github",
+      "destination": "https://github.com/HMTNetwork"
+    },
+    {
+      "source": "/rules",
+      "destination": "https://hmt-network.de/docs/#/rules"
+    },
+    {
+      "source": "/status",
+      "destination": "https://hmt-network.instatus.com"
+    },
+    {
+      "source": "/socials/discord",
+      "destination": "https://discord.gg/ykuVSer7Bk"
+    },
+    {
+      "source": "/socials/youtube",
+      "destination": "https://www.youtube.com/@hmt-network"
+    }
+  ]
+}

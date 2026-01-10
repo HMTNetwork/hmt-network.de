@@ -91,21 +91,57 @@
 
         <section class="section">
           <div class="d-flex justify-content-between align-items-center mb-2">
-            <h2 class="section-title no-margin">Unsere Spielmodi</h2>
+            <h2 class="section-title no-margin">Dokumentation</h2>
           </div>
           <div class="dashboard-grid">
+            <!-- Documentation Card -->
+            <div class="card" style="padding: 0; overflow: hidden">
+              <div style="position: relative">
+                <img
+                  src="/assets/img/logo/HMT-Symbol-Green.png"
+                  alt="HMT Network Dokumentation - Umfassende Anleitungen und Informationen"
+                  class="server-card-img"
+                  loading="lazy"
+                  width="300"
+                  height="150"
+                  style="object-fit: contain; background: #0f0f0f"
+                />
+                <div class="server-card-overlay">
+                  <h2 class="server-card-title">Docs</h2>
+                </div>
+              </div>
+              <div class="news-content">
+                <h3
+                  style="
+                    font-size: 1.2rem;
+                    margin-bottom: 5px;
+                    color: var(--text-main);
+                  "
+                >
+                  Offizielle Dokumentation
+                </h3>
+                <div style="margin-bottom: 10px"></div>
+                <p class="card-description">
+                  Finde alle wichtigen Informationen über unsere Server, Regeln,
+                  Ränge und Spielmodi in unserer umfassenden Dokumentation.
+                </p>
+                <a href="/docs" class="btn btn-primary">Zur Dokumentation</a>
+              </div>
+            </div>
+
+            <!-- Getting Started Guide -->
             <div class="card" style="padding: 0; overflow: hidden">
               <div style="position: relative">
                 <img
                   src="/assets/img/servers/lobby.png"
-                  alt="HMT Network Lobby Server - Der zentrale Treffpunkt unserer Minecraft-Community"
+                  alt="Erste Schritte - So trittst du dem HMT Network bei"
                   class="server-card-img"
                   loading="lazy"
                   width="300"
                   height="150"
                 />
                 <div class="server-card-overlay">
-                  <h2 class="server-card-title">Lobby</h2>
+                  <h2 class="server-card-title">Start</h2>
                 </div>
               </div>
               <div class="news-content">
@@ -116,64 +152,18 @@
                     color: var(--text-main);
                   "
                 >
-                  Lobby
+                  Erste Schritte
                 </h3>
                 <div style="margin-bottom: 10px"></div>
                 <p class="card-description">
-                  Der zentrale Treffpunkt unserer Community. Hier beginnt dein
-                  Minecraft-Abenteuer und du kannst zwischen den verschiedenen
-                  Spielmodi wählen.
+                  Neu beim HMT Network? In unserer Anleitung erfährst du alles,
+                  was du brauchst, um loszulegen und Teil unserer Community zu
+                  werden.
                 </p>
-              </div>
-            </div>
-
-            <div class="card" style="padding: 0; overflow: hidden">
-              <div style="position: relative">
-                <img
-                  src="/assets/img/servers/survival.png"
-                  alt="HMT Network Survival Server - Entspannter Minecraft-Spaß mit Backups und fairen Regeln"
-                  class="server-card-img"
-                  loading="lazy"
-                  width="300"
-                  height="150"
-                />
-                <div class="server-card-overlay">
-                  <h2 class="server-card-title">Survival</h2>
-                </div>
-              </div>
-              <div class="news-content">
-                <h3
-                  style="
-                    font-size: 1.2rem;
-                    margin-bottom: 5px;
-                    color: var(--text-main);
-                  "
-                >
-                  Survival
-                </h3>
-                <div style="margin-bottom: 10px"></div>
-                <p class="card-description">
-                  Erkunde unsere entspannte Minecraft-Welt mit regelmäßigen
-                  Backups, fairen Regeln und einer freundlichen Community.
-                  Perfekt für Baumeister und Abenteurer gleichermaßen.
-                </p>
-                <a href="/servers/survival" class="btn btn-primary"
-                  >Mehr erfahren</a
+                <a href="/docs/#/join" class="btn btn-primary"
+                  >Anleitung lesen</a
                 >
               </div>
-            </div>
-          </div>
-        </section>
-
-        <section class="section">
-          <div class="d-flex justify-content-between align-items-center mb-2">
-            <h2 class="section-title no-margin">Neueste Blog Einträge</h2>
-          </div>
-
-          <div id="blog-posts-container" class="dashboard-grid">
-            <!-- Blog posts will be loaded here dynamically -->
-            <div class="loading-placeholder card">
-              <p>Lade Blog-Einträge...</p>
             </div>
           </div>
         </section>

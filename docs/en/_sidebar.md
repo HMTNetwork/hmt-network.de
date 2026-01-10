@@ -1,0 +1,13 @@
+- [Home](README.md)
+- [How do I join?](join.md)
+- [Rules](rules.md)
+- [Commands](commands.md)
+- Game Mechanics
+  - [Economy & Shop](economy.md)
+  - [Teams & Guilds](teams.md)
+  - [Crates & Rewards](crates.md)
+- Ranks & Benefits
+  - [Rank Overview](ranks.md)
+- [FAQ - Help & Questions](faq.md)
+- Beta
+  - [Changelog](changelog.md)

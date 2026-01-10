@@ -1,41 +1,42 @@
-# Wie trete ich dem Server bei?
+# Wie joine ich dem HMT-Network?
 
-Um unserem Minecraft-Server beizutreten, folge diesen einfachen Schritten:
+Unser Netzwerk unterstützt **Crossplay**. Das bedeutet, du kannst mit der Java Edition (PC) und der Bedrock Edition (Handy, Konsole, Win10) gleichzeitig bei uns spielen.
 
-## Voraussetzungen
+## 💻 Java Edition (PC/Mac)
+1. Starte Minecraft (jede Version möglich).
+2. Klicke auf **Mehrspieler** (Multiplayer).
+3. Klicke auf **Server hinzufügen**.
+4. Gib unter Serveradresse folgendes ein: `mc.hmt-network.de`
+5. Speichern und Beitreten.
 
-- Minecraft Java Edition (Version 1.21.10)
-  oder
-- Minecraft Bedrock Edition
+---
 
-## Schritt-für-Schritt-Anleitung
+## 📱 Bedrock Edition (Handy/Tablet/Windows 10 & 11)
+1. Starte Minecraft.
+2. Klicke auf **Spielen** -> Tab **Server**.
+3. Scrolle ganz nach unten und klicke auf **Server hinzufügen**.
+4. Gib folgende Daten ein:
+   * **Servername:** HMT-Network
+   * **Server-IP:** `bedrock.hmt-network.de`
+   * **Port:** `19132` (Standard-Port)
+5. Klicke auf **Spielen** oder **Speichern**.
 
-### Java
+---
 
-1. Öffne den Minecraft Launcher
-2. Wähle die Java Edition aus
-3. Klicke auf "Multiplayer"
-4. Klicke auf "Add Server" oder "Direkt verbinden"
-5. Gib als Serveradresse ein: `mc.hmt-network.de`
-6. Klicke auf "Fertig" bzw. "Join Server"
-7. Warte auf die Verbindung zum Server
+## 🎮 Konsolen (Xbox, PlayStation, Nintendo Switch)
+Da Konsolen standardmäßig keine eigenen Server-IPs erlauben, musst du einen kleinen Trick anwenden. Hier sind die gängigsten Methoden:
 
-### Bedrock
+### Methode A: "Bedrock Together" App (Empfohlen)
+1. Lade dir die App **"Bedrock Together"** (kostenlos im App Store / Google Play Store) auf dein Handy herunter.
+2. Starte die App und gib dort die IP `bedrock.hmt-network.de` und den Port `19132` ein.
+3. Klicke auf "Watch Ad and Run".
+4. Starte Minecraft auf deiner Konsole und gehe zum Tab **Freunde**.
+5. Dort erscheint nun ein "Lan-Spiel" namens "BedrockTogether". Tritt diesem bei und du wirst automatisch auf unser Netzwerk weitergeleitet.
 
-1. Öffne Minecraft Bedrock/Minecraft Windows Edition
-2. Klicke auf "Spielen"
-3. Klicke auf "Server"
-4. Klicke auf "Server hinzufügen"
-5. Servername ist `HMT Network` oder ein beliebig anderer Name
-6. Gib als Serveradresse ein: `bedrock.hmt-network.de`
-7. Klicke auf "Hinzufügen und spielen"
+### Methode B: DNS-Workaround
+Du kannst in den Netzwerkeinstellungen deiner Konsole den DNS-Server ändern, um eine Server-Liste freizuschalten. Wenn du dazu Hilfe brauchst, frag gerne ein Teammitglied im Discord!
 
-## Probleme beim Verbinden?
+---
 
-Falls du Probleme beim Verbinden hast:
-
-- Stelle sicher, dass du die richtige Minecraft-Version verwendest
-- Prüfe, ob die Serveradresse korrekt eingegeben ist
-- Versuche, deinen Router neu zu starten
-
-Bei weiteren Problemen wende dich an unser Support-Team auf unserem Discord-Server.
+## 🛠️ Versions-Hinweis
+Wir nutzen ein Protokoll, das es dir erlaubt, mit **fast jeder Minecraft-Version** zu joinen. Wir empfehlen jedoch immer die aktuellste Version zu nutzen, um alle Features und Blöcke fehlerfrei sehen zu können.

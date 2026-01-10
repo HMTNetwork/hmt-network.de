@@ -1,13 +1,13 @@
-<!-- docs/_sidebar.md -->
-
-- [Home](/)
-- Erste Schritte
-  - [Wie trete ich bei?](/join.md)
-- Server
-  - [Survival](/survival.md)
-  - [Hardcore](/hardcore.md)
-- Gameplay
-  - [Commands](/commands.md)
-  - [Ränge und Rechte](/ranks.md)
-- Regeln
-  - [Server Regeln](/rules.md)
+- [Startseite](README.md)
+- [Wie joine ich?](join.md)
+- [Regelwerk](rules.md)
+- [Befehle & Commands](commands.md)
+- Spielmechaniken
+  - [Wirtschaft & Shop](economy.md)
+  - [Teams & Gilden](teams.md)
+  - [Crates & Belohnungen](crates.md)
+- Ränge & Vorteile
+  - [Rang-Übersicht](ranks.md)
+- [FAQ - Hilfe & Fragen](faq.md)
+- Beta
+  - [Changelog](changelog.md)

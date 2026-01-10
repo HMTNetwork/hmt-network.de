@@ -1,6 +1,11 @@
-Home, README.md
-Wie trete ich bei?, join.md
-Survival, survival.md
-Commands, commands.md
-Ränge und Rechte, ranks.md
-Server Regeln, rules.md
+Startseite, README.md
+Erster Schritt, join.md
+Informationen, info.md
+Befehle, commands.md
+Ränge, ranks.md
+Regeln, rules.md
+Changelog, changelog.md
+Kisten, crates.md
+Wirtschaft, economy.md
+FAQ, faq.md
+Teams, teams.md
