@@ -25,6 +25,7 @@ Unser Netzwerk unterstützt **Crossplay**. Das bedeutet, du kannst mit der Java 
 
 ## 🎮 Konsolen (Xbox, PlayStation, Nintendo Switch)
 Da Konsolen standardmäßig keine eigenen Server-IPs erlauben, musst du einen kleinen Trick anwenden. Hier sind die gängigsten Methoden:
+Falls du genauere Hilfe benötigst schau gerne [dieses YouTube-Video](https://www.youtube.com/watch?v=AoLPhKW2Xis) oder frag auf unserem Discord nach.
 
 ### Methode A: "Bedrock Together" App (Empfohlen)
 1. Lade dir die App **"Bedrock Together"** (kostenlos im App Store / Google Play Store) auf dein Handy herunter.
