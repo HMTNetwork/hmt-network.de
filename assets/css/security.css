@@ -1,0 +1,133 @@
+/* Verhindert jegliches Scrolling auf der Seite */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+  background-color: #1a1a1a; /* Dunkler Hintergrund */
+  font-family: "Tahoma", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Das XP Fenster */
+.window {
+  width: 600px;
+  background-color: #ece9d8;
+  border: 3px solid #003399;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+}
+
+/* Titelleiste */
+.title-bar {
+  background: linear-gradient(
+    to bottom,
+    #245edb 0%,
+    #3f8cf3 10%,
+    #245edb 20%,
+    #245edb 90%,
+    #1a1a1a 100%
+  );
+  padding: 4px 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  font-size: 13px;
+  text-shadow: 1px 1px #000;
+}
+
+.controls button {
+  width: 21px;
+  height: 21px;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  margin-left: 2px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.btn-close {
+  background: #e04343;
+}
+
+/* Hauptinhalt */
+.main-content {
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 18px;
+  margin-top: 0;
+  color: #000;
+  text-decoration: underline;
+}
+
+/* Die Liste der Forscher */
+.hall-of-fame {
+  background: white;
+  border: 2px inset #fff;
+  margin: 15px 0;
+  text-align: left;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+
+th {
+  background: #f0f0f0;
+  border-bottom: 1px solid #ccc;
+  padding: 4px;
+  font-weight: normal;
+}
+
+td {
+  padding: 6px 10px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+tr:hover {
+  background-color: #316ac5;
+  color: white;
+}
+
+/* XP Buttons unten */
+.button-row {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  padding: 10px;
+  background-color: #ece9d8;
+}
+
+.xp-button {
+  padding: 4px 15px;
+  border: 1px solid #003399;
+  background: #fff;
+  box-shadow: inset -1px -1px #aca899;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.xp-button:active {
+  box-shadow: inset 1px 1px #aca899;
+}
+
+.footer-text {
+  font-size: 11px;
+  color: #555;
+  margin-top: 10px;
+}
