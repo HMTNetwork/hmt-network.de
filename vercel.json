@@ -27,6 +27,10 @@
     {
       "source": "/socials/youtube",
       "destination": "https://www.youtube.com/@hmt-network"
+    },
+    {
+      "source": "/docs",
+      "destination": "/docs/#/README"
     }
   ]
 }
