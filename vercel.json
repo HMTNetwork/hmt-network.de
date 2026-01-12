@@ -31,10 +31,6 @@
     {
       "source": "/docs",
       "destination": "/docs/#/README"
-    },
-    {
-      "source": "/docs/",
-      "destination": "/docs/#/README"
     }
   ]
 }
